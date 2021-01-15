@@ -79,4 +79,4 @@ School:University of Manchester
 
 学校：曼彻斯特大学
 
-
+[![View A-new-Nature-inspired-optimization-algorithm-AFO on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://ww2.mathworks.cn/matlabcentral/fileexchange/85700-a-new-nature-inspired-optimization-algorithm-afo)
