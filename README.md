@@ -1,5 +1,6 @@
 # A-new-Nature-inspired-optimization-algorithm-AFO
 A new Nature-inspired optimization algorithm: Aptenodytes Forsteri Optimization algorithm (AFO)
+
 The code for the AFO algorithm and the use of the algorithm to solve the shifted classical benchmark functions.
 
 Update log.
