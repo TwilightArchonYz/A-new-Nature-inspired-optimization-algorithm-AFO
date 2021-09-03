@@ -51,7 +51,7 @@ Author：Yang Zhe
 E-mail: 454170989@qq.com  
 School: University of Manchester, UK, Harbin Institute of Technology，China  
 %%--------------------------------------------%%  
-         逍遥一世
+逍遥一世  
 人生如梦未醒时，一半年华皆梦中。  
 自言行乐朝朝是，岂料浮生渐渐忙。  
 年年九陌看春还，旧隐空劳梦寐间。  
