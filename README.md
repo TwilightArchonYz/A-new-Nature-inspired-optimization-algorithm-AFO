@@ -39,8 +39,8 @@ Notes.
 (1) All code is written using matlab 2021a, but there may be compatibility problems between matlab 2021a and previous versions, and garbled codes may appear. If the code is garbled, use txt to open it and copy the code from txt to .m file  
 (2) Improved algorithms for AFO will be added later, as well as more application examples. The lab has participated in and completed hundreds of applications based on swarm intelligence, including power systems, workshop scheduling, logistics and distribution, site layout, UAV path planning, robot path planning, complex network optimisation, resource scheduling, optimisation of various machine learning algorithms and other directions. The lab will continue to select classic cases to add to this code collection, so please stay tuned. If you need code for a particular direction, please leave a message or contact us by email.  
 (3) Our lab has published a large number of high-level improvement algorithms, which will be added to this code collection one after another, so please pay attention to them.  
-%%--------------------------------------------%%
-Copy right  
+%%--------------------------------------------%%  
+Copy right    
 你可以免费使用本代码库中的所有代码，但是请注明出处并引用相关的参考文献。  
 You are free to use all the code in this code base, but please give credit and cite the relevant references.  
 %%--------------------------------------------%%  
@@ -49,6 +49,26 @@ You are free to use all the code in this code base, but please give credit and c
 学校：英国曼彻斯特大学，中国哈尔滨工业大学  
 Author：Yang Zhe  
 E-mail: 454170989@qq.com  
-School: University of Manchester, UK, Harbin Institute of Technology，China
+School: University of Manchester, UK, Harbin Institute of Technology，China  
+%%--------------------------------------------%%  
+         逍遥一世
+人生如梦未醒时，一半年华皆梦中。  
+自言行乐朝朝是，岂料浮生渐渐忙。  
+年年九陌看春还，旧隐空劳梦寐间。  
+弥起长恨欢娱少，繁星闪烁度华年。  
+浮生未歇几时欢，心系虚妄怎逍遥。  
 
+人心多是少相投，非识尘中上品流。  
+人是人非意颇同，较量此事尽归空。  
+无为政化求真理，方表深仁大道雄。  
+铸鼎铭钟封爵邑，功名让与英雄立。  
+浮生聚散是浮萍，何须日夜苦蝇营。  
+
+笑看沧海欲成尘，王母花前别众真。  
+千岁却归天上去，一心珍重世间人。  
+直上五云云路稳，紫鸾朱凤自来迎。  
+人间天上尽修行，七宝山高混太清。  
+自觉浮生幻化事，逍遥快乐实善哉。  
+  
+         ——逍遥浮世，与道俱成  
 [![View A-new-Nature-inspired-optimization-algorithm-AFO on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://ww2.mathworks.cn/matlabcentral/fileexchange/85700-a-new-nature-inspired-optimization-algorithm-afo)
