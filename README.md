@@ -49,4 +49,6 @@ You are free to use all the code in this code base, but please give credit and c
 学校：英国曼彻斯特大学，中国哈尔滨工业大学  
 Author：Yang Zhe  
 E-mail: 454170989@qq.com  
-School: University of Manchester, UK, Harbin Institute of Technology，China 
+School: University of Manchester, UK, Harbin Institute of Technology，China
+
+[![View A-new-Nature-inspired-optimization-algorithm-AFO on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://ww2.mathworks.cn/matlabcentral/fileexchange/85700-a-new-nature-inspired-optimization-algorithm-afo)
