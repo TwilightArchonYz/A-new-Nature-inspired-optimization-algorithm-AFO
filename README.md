@@ -42,7 +42,7 @@ Notes.
 %%--------------------------------------------%%
 Copy right  
 你可以免费使用本代码库中的所有代码，但是请注明出处并引用相关的参考文献。  
-You are free to use all the code in this code base, but please give credit and cite the relevant references.
+You are free to use all the code in this code base, but please give credit and cite the relevant references.  
 %%--------------------------------------------%%  
 作者：杨喆  
 邮箱：454170989@qq.com  
