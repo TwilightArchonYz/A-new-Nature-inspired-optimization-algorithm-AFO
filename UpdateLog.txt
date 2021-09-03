@@ -4,16 +4,16 @@ Version 1.2
 This update adds a collection of practical applications of AFO, including some practical application problems solved by the AFO algorithm, and more practical applications will be added later.
 (1) The four industrial design problems with constraints mentioned in the paper
 (2) Optimising the weights and thresholds of neural networks
-(3) Aviation scheduling - multi-sector
-(4) Flexible shop floor scheduling
-(5) Raster maps - robot pathfinding
+(3) Aviation scheduling: multi-sector
+(4) Flexible workshop scheduling
+(5) Raster maps: robot pathfinding
 (6) Logistics centre location problem: factory-centre-demand point
-(7) Multi-row shop floor scheduling - considering AVG partitioning
-(8) Oil plant-unmanned aircraft up path planning
+(7) Multi-row shop floor layout considering AVG partitioning 
+(8) Oil plants: UAVs for path planning
 (9) Power system bus optimization based on tide calculation
 (10) Optimization study of cold chain distribution logistics vehicle scheduling for a dairy company
 (11) Plasma processing trajectory planning for 6R industrial robots
-(12) TSP problem and its variants
+(12) TSP problem and its variant problems
 Notes.
 (1) All code is written using matlab 2021a, but there may be compatibility problems between matlab 2021a and previous versions, and garbled codes may appear. If the code is garbled, use txt to open it and copy the code from txt to .m file
 (2) Improved algorithms for AFO will be added later, as well as more application examples. The lab has participated in and completed hundreds of applications based on swarm intelligence, including power systems, workshop scheduling, logistics and distribution, site layout, UAV path planning, robot path planning, complex network optimisation, resource scheduling, optimisation of various machine learning algorithms and other directions. The lab will continue to select classic cases to add to this code collection, so please stay tuned. If you need code for a particular direction, please leave a message or contact us by email.
