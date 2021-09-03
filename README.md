@@ -1,5 +1,5 @@
-# A-new-Nature-inspired-optimization-algorithm-AFO
-A new Nature-inspired optimization algorithm: Aptenodytes Forsteri Optimization algorithm (AFO)  
+# A-new-nature-inspired-optimization-algorithm-AFO
+A new nature-inspired optimization algorithm: Aptenodytes Forsteri Optimization algorithm (AFO)  
 %%--------------------------------------------%%  
 这里有两个文件夹，一个是AFO在标准测试集上的实验的代码，一个是AFO在一些实际问题上的应用  
 除去论文提到的四个工业设计问题，还有其他问题再该集合当中，具体目录如下  
