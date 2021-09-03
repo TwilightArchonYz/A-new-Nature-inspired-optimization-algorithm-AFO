@@ -1,5 +1,6 @@
 Update log.
 2021.9.3 
+Version 1.2
 This update adds a collection of practical applications of AFO, including some practical application problems solved by the AFO algorithm, and more practical applications will be added later.
 (1) The four industrial design problems with constraints mentioned in the paper
 (2) Optimising the weights and thresholds of neural networks
