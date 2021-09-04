@@ -70,5 +70,6 @@ School: University of Manchester, UK, Harbin Institute of Technology，China
 人间天上尽修行，七宝山高混太清。  
 自觉浮生幻化事，逍遥快乐实善哉。  
   
-         ——逍遥浮世，与道俱成  
+         ——逍遥浮世，与道俱成    
+%%--------------------------------------------%%  
 [![View A-new-Nature-inspired-optimization-algorithm-AFO on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://ww2.mathworks.cn/matlabcentral/fileexchange/85700-a-new-nature-inspired-optimization-algorithm-afo)
