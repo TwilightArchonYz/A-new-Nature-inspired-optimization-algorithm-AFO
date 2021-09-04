@@ -22,18 +22,18 @@ A new nature-inspired optimization algorithm: Aptenodytes Forsteri Optimization 
   
 There are two folders, one for the code of AFO experiments on the standard test set and one for the application of AFO to some practical problems  
 In addition to the four industrial design problems mentioned in the thesis, there are other problems in the collection, which are listed below  
-(1) The four industrial design problems with constraints mentioned in the paper
-(2) Optimising the weights and thresholds of neural networks
-(3) Aviation scheduling: multi-sector
-(4) Flexible workshop scheduling
-(5) Raster maps: robot pathfinding
-(6) Logistics centre location problem: factory-centre-demand point
-(7) Multi-row shop floor layout considering AVG partitioning 
-(8) Oil plants: UAVs for path planning
-(9) Power system bus optimization based on tide calculation
-(10) Optimization study of cold chain distribution logistics vehicle scheduling for a dairy company
-(11) Plasma processing trajectory planning for 6R industrial robots
-(12) TSP problem and its variant problems
+(1) The four industrial design problems with constraints mentioned in the paper  
+(2) Optimising the weights and thresholds of neural networks  
+(3) Aviation scheduling: multi-sector  
+(4) Flexible workshop scheduling  
+(5) Raster maps: robot pathfinding  
+(6) Logistics centre location problem: factory-centre-demand point  
+(7) Multi-row shop floor layout considering AVG partitioning   
+(8) Oil plants: UAVs for path planning  
+(9) Power system bus optimization based on tide calculation  
+(10) Optimization study of cold chain distribution logistics vehicle scheduling for a dairy company  
+(11) Plasma processing trajectory planning for 6R industrial robots  
+(12) TSP problem and its variant problems  
   
 Notes.  
 (1) All code is written using matlab 2021a, but there may be compatibility problems between matlab 2021a and previous versions, and garbled codes may appear. If the code is garbled, use txt to open it and copy the code from txt to .m file  
