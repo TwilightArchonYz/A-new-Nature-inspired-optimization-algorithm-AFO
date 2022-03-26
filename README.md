@@ -1,5 +1,25 @@
 # A-new-nature-inspired-optimization-algorithm-AFO
 A new nature-inspired optimization algorithm: Aptenodytes Forsteri Optimization algorithm (AFO)  
+%%--------------------------------------------%%
+更新日志 Updating Log
+2. 2022.3.25 
+Version 1.2
+It is experimentally found that the gradient estimation strategy is less efficient in most cases. Here the replacement is Gaussian perturbation with a perturbation step of x_c the average distance from x
+
+x_new=x_c+Rn*(x_r1-x_r2).*Dm
+
+where x_new is the new individual position; Rn is a 1xN matrix of random numbers obeying normal distribution; x_r1 and x_r2 are the positions of the r1st and r2nd penguins in the population, r1 and r2 are randomly generated, and Dm is the average distance of x_c from all penguins in the population in each dimension, a 1xN matrix.
+
+Ps：Perturbation step of x_c distance x_m is also a good choice, interested in their own experiments.
+
+实验发现，在大多数情况下，梯度估计策略的效率较低。这里的替换是高斯扰动，扰动步长为x_c，与x的平均距离为x
+
+x_new=x_c+Rn*(x_r1-x_r2).*Dm
+
+其中，x_new是新个体位置; Rn是一个1xN的随机数矩阵，服从正态分布; x_r1和x_r2是种群中第r1和第r2只企鹅的位置，r1和r2随机生成，Dm是x_c距离种群中所有企鹅在每一个维度上的平均距离，是一个1xN的矩阵。
+
+注：可以讲基准参考从当前企鹅位置X替换为企鹅记忆中最优位置X_m.
+
 %%--------------------------------------------%%  
 这里有两个文件夹，一个是AFO在标准测试集上的实验的代码，一个是AFO在一些实际问题上的应用  
 除去论文提到的四个工业设计问题，还有其他问题再该集合当中，具体目录如下  
