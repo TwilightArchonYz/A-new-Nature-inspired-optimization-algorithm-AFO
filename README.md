@@ -12,7 +12,7 @@ Yang Z, Deng L B, Wang Y, et al. Aptenodytes Forsteri Optimization: Algorithm an
 
 2022.3.25 
 
-Version 1.2
+Version 1.3
 
 It is experimentally found that the gradient estimation strategy is less efficient in most cases. Here the replacement is Gaussian perturbation with a perturbation step of x_c the average distance from x
 
