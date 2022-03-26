@@ -1,13 +1,19 @@
 # A-new-nature-inspired-optimization-algorithm-AFO
 A new nature-inspired optimization algorithm: Aptenodytes Forsteri Optimization algorithm (AFO)  
 %%--------------------------------------------%%
+
 Paper
+
 Yang Z, Deng L B, Wang Y, et al. Aptenodytes Forsteri Optimization: Algorithm and applications[J]. Knowledge-Based Systems, 2021, 232: 107483.
+
 %%--------------------------------------------%%
 
 更新日志 Updating Log
-2. 2022.3.25 
+
+2022.3.25 
+
 Version 1.2
+
 It is experimentally found that the gradient estimation strategy is less efficient in most cases. Here the replacement is Gaussian perturbation with a perturbation step of x_c the average distance from x
 
 x_new=x_c+Rn*(x_r1-x_r2).*Dm
