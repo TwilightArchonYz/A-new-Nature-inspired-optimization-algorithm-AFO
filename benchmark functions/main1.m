@@ -1,5 +1,4 @@
-%% 2020.11.30 µÛÆó¶ìËã·¨  Æ½ÒÆºóµÄ±ê×¼²âÊÔº¯Êý
-% µÛÆó¶ìËã·¨ÔÚÆ½ÒÆºóµÄ±ê×¼²âÊÔº¯ÊýÉÏµÄÊµÑé
+%% 2022.3.25 帝企鹅算法测试函数
 % AFO on shifted classcial benchmark functions
 clc;
 clear;
@@ -7,10 +6,9 @@ close all;
 warning off
 %%
 rng('default')
-%% Ñ¡Ôñ²âÊÔº¯Êý
-addpath('code');
+%% 测试函数
 global option
-option.no=3; %µÚ15¸ö²âÊÔº¯Êý
+option.no=7; %选择测试函数
 option.F=['F',num2str(option.no)];
 [lb,ub,dim,fobj] = Get_Functions_details(option.F);
 option.lb=lb;
@@ -24,12 +22,10 @@ option.fobj0=fobj;
 option.fobj=@fitFCN_BX;
 option.showIter=0;
 
-%% Ëã·¨²ÎÊýÉèÖÃ Parameters 
+%% 实验参数
 option.repeatNum=10; % Number of repetitions of the test
-% »ù±¾²ÎÊý
-option.numAgent=200;        %ÖÖÈº¸öÌåÊý size of population
-option.maxIteration=50;    %×î´óµü´ú´ÎÊý maximum number of interation
-% µÛÆó¶ìËã·¨
+option.numAgent=150;        % size of population
+option.maxIteration=200;     % maximum number of interation
 option.v_lb=-(option.ub-option.lb)/4;
 option.v_ub=(option.ub-option.lb)/4;
 option.w2=0.5; %weight of Moving strategy III
@@ -41,7 +37,7 @@ option.gapMin=5; % min gap
 option.dec=2;    % dec of gap
 option.L=10;     % Catastrophe
 data=[];
-str_legend=[{'AFO1'},{'AFO2'}];
+str_legend=[{'AFO1'},{'AFO2'},{'AFO3'}];
 for ii=1:option.repeatNum
     ii
     rng(ii)
@@ -79,8 +75,12 @@ for ii=1:option.repeatNum
     tic
     [bestY(2,:),bestX(2,:),recording(2)]=AFO2(x,y,option,data);
     tt(ii,2)=toc;
+    rng(ii)
+    tic
+    [bestY(3,:),bestX(3,:),recording(3)]=AFO3(x,y,option,data);
+    tt(ii,3)=toc;
     for i=1:length(recording)
-        recordingCruve{i}(ii,:)=recording(i).bestFit;
+        recordingCruve{i}(ii,1:option.maxIteration)=recording(i).bestFit(1:option.maxIteration);
         recordingY(i,ii)=bestY(i,:);
     end
 end

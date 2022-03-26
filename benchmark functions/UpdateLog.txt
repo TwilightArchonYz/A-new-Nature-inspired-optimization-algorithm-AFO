@@ -17,6 +17,10 @@ The core reason for the excessive slowness was that strategy 2 did not use matri
 Note: In order to use matrix operations, this version updates all individuals of the population when using the third strategy, but calculates the fitness value only for those individuals that are eligible. The total number of evaluations is still T*N.
          If you want to rewrite this code in another language, we suggest you refer to AFO1. AFO2 is optimized for MATLAB and may not be suitable for your language.
 (2) After using the catastrophe strategy, the current iteration number +1,the total evaluation number reverts to T*N
+2. 2022.3.25 
+Version 1.2
+It is experimentally found that the gradient estimation strategy is less efficient in most cases. Here the replacement is Gaussian perturbation with a perturbation step of x_c the average distance from x
+Perturbation step of x_c distance x_m is also a good choice, interested in their own experiments.
 
 Author: Zhe Yang
 E-mail: 454170989@qq.com
@@ -38,6 +42,10 @@ School:University of Manchester
 注1：为了使用矩阵运算，该版本在使用第三种策略时，对种群的全部个体进行更新，但仅对符合条件的个体，计算适应度值。总评价次数仍为T*N。
 注2:  减少了调用结构体的次数，如果最求更快的速度，可进一步改写程序，删除所有的结构体，直接传递变量
 （2）使用灾变策略后，当前迭代次数+1,总评价次数恢复为T*N
+3、2022.3.25
+版本 1.2
+经实验发现，梯度估计策略在大多数情况下效率较低。这里替换为高斯扰动，扰动步长为x_c距离x的平均距离
+扰动步长为x_c距离x_m也是一个不错的选择，有兴趣可以自行实验
 
 作者：杨喆
 邮箱：454170989@qq.com
