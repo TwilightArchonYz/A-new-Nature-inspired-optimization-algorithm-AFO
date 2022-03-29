@@ -76,10 +76,10 @@ You are free to use all the code in this code base, but please give credit and c
 %%--------------------------------------------%%  
 作者：杨喆  
 邮箱：454170989@qq.com  
-学校：英国曼彻斯特大学，中国哈尔滨工业大学  
+学校：英国曼彻斯特大学
 Author：Yang Zhe  
 E-mail: 454170989@qq.com  
-School: University of Manchester, UK, Harbin Institute of Technology，China  
+School: University of Manchester, UK
 %%--------------------------------------------%%  
 逍遥一世  
 人生如梦未醒时，一半年华皆梦中。  
